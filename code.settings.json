@@ -1,0 +1,6 @@
+{
+    "editor.minimap.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "workbench.colorTheme": "Hyper Dracula"
+}

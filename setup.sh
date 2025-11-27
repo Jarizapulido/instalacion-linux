@@ -8,7 +8,7 @@ read -p "Introduce tu email para Git: " git_email
 git config --global user.name "$git_name"
 git config --global user.email "$git_email"
 
-sudo ap install -y \
+sudo apt install -y \
 
 #vscode
 sudo snap install --classic code
@@ -46,7 +46,10 @@ sudo apt install -y curl || true
 	&& sudo apt update \
 	&& sudo apt install gh -y
 
+# copiar dotfiles
+
 cp .bashrc ~
+cp code.settings.json ~/.config/Code/User/settings.json
 
 # Nerd fonts
 sudo apt install -y fonts-firacode || true
